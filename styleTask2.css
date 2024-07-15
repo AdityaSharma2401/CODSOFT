@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #659189;
+    color: #efe3e3;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #8d949e 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+}
+
+header nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #e8e8e3;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home .btn {
+    background:cadetblue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .rooms, .contact {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.about p, .contact p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.rooms .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rooms .column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f4f4f4;
+    text-align: center;
+    min-width: 250px;
+}
+
+.rooms .column img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #87f7f1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .rooms .row {
+        flex-direction: column;
+    }
+
+    .rooms .column {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+#Home{
+    background-color: aquamarine;
+    background-image: url(Head.webp);
+}
